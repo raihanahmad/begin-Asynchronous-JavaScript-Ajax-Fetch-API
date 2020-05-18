@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>XHR Object</title>
+  <style>
+    body {
+      background-color: aquamarine;
+      display: grid;
+      place-content: center;
+      height: 90vh;
+      color: #ea5a00;
+    }
+
+    #container {
+      border: #f37121 3px solid;
+      border-radius: 5px;
+      padding: 3rem;
+      text-align: center;
+      background: rgb(197, 255, 236);
+      box-shadow: 15px 15px 50px rgba(0, 0, 0, .3);
+    }
+
+    #btn {
+      border: none;
+      text-transform: capitalize;
+      font-size: 1.1rem;
+      font-weight: 600;
+      padding: 1rem 2.3rem;
+      background: #f37121;
+      border-radius: 9px;
+      color: #fff;
+      cursor: pointer;
+      outline: none;
+    }
+
+    #btn:hover {
+      background-color: #e05c09;
+    }
+  </style>
+</head>
+
+<body>
+  <section id="container">
+    <form action="#">
+      <input id="btn" type="submit" value="Click and fetch text">
+      <p id="text-content"></p>
+    </form>
+  </section>
+
+  <!-- INCLUDE JS FILE -->
+  <script src="app.js"></script>
+</body>
+
+</html>
