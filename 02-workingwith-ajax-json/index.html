@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Working With Ajax and JSON DATA</title>
+  <style>
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+      color: #333;
+      /* background-color: rgb(0, 194, 81); */
+    }
+
+    #container {
+      max-width: 900px;
+      padding: 2rem;
+      margin: auto;
+    }
+
+    .btn {
+      padding: .9rem 2rem;
+      border-radius: 10px;
+      outline: none;
+      border: none;
+      background-color: #eee;
+      margin-right: 2rem;
+      cursor: pointer;
+      box-shadow: inset 5px 4px 7px rgba(255, 255, 255, 1), inset -5px -4px 7px rgba(0, 0, 0, .5);
+      text-transform: uppercase;
+      font-weight: 600;
+      color: #444;
+    }
+
+    .btn:hover {
+      box-shadow: inset 5px 4px 7px rgba(0, 0, 0, .6), inset -5px -4px 7px rgba(255, 255, 255, 1);
+    }
+
+    h1 {
+      border-bottom: dotted #333 2px;
+    }
+
+    #customer,
+    #customers {
+      background-color: #f1f4f1;
+      border-radius: 10px;
+      padding: 1rem;
+      margin-bottom: 3rem;
+      color: #333;
+      line-height: 1.9;
+    }
+  </style>
+</head>
+
+<body>
+  <section id="container">
+    <button id="btn-customer" class="btn">Fetch A Customer</button>
+    <h1>A CUSTOMER</h1>
+    <div id="customer"></div>
+    <!--  -->
+    <button id="btn-customers" class="btn">Fetch Some Customers</button>
+    <h1>SOME CUSTOMERS</h1>
+    <div id="customers"></div>
+  </section>
+
+  <!-- INCLUDE JS FILE -->
+  <script src="app.js"></script>
+</body>
+
+</html>
